@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{7B2A2D2E-0A4B-4584-9AFF-366B00941308}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{B11E6F42-6C3A-42D0-B8E6-09D340CD9868}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B2A2D2E-0A4B-4584-9AFF-366B00941308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2A2D2E-0A4B-4584-9AFF-366B00941308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2A2D2E-0A4B-4584-9AFF-366B00941308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2A2D2E-0A4B-4584-9AFF-366B00941308}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
