@@ -50,6 +50,10 @@
       <HintPath>..\packages\Affecto.AngularJS.TypeScript.Base.2.0.1\lib\net45\Affecto.AngularJS.TypeScript.Base.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Affecto.TypeScript.Common, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Affecto.TypeScript.Common.1.4.0\lib\net45\Affecto.TypeScript.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
       <Private>True</Private>
@@ -118,6 +122,12 @@
     <TypeScriptCompile Include="App\Packages\Base\Models\IModel.ts" />
     <TypeScriptCompile Include="App\Packages\Base\Registration.ts" />
     <TypeScriptCompile Include="App\Packages\Base\Views\IViewScope.ts" />
+    <TypeScriptCompile Include="Scripts\affecto\Compare.ts" />
+    <TypeScriptCompile Include="Scripts\affecto\DateConverter.ts" />
+    <TypeScriptCompile Include="Scripts\affecto\DateTime.ts" />
+    <TypeScriptCompile Include="Scripts\affecto\DateValidator.ts" />
+    <TypeScriptCompile Include="Scripts\affecto\HtmlContent.ts" />
+    <TypeScriptCompile Include="Scripts\affecto\NumberValidator.ts" />
     <TypeScriptCompile Include="Scripts\Login\Constants\Events.ts" />
     <TypeScriptCompile Include="Scripts\Login\Controllers\LoginDrivenController.ts" />
     <TypeScriptCompile Include="Scripts\Login\Login.ts" />

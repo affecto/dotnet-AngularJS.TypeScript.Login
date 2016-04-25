@@ -196,3 +196,8 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+**/Scripts/Login/**/*.js
+**/Scripts/Login/**/*.map
+**/Scripts/affecto/**/*.js
+**/Scripts/affecto/**/*.map
