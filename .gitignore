@@ -199,3 +199,5 @@ FakesAssemblies/
 
 **/Scripts/Login/**/*.js
 **/Scripts/Login/**/*.map
+**/Scripts/affecto/**/*.js
+**/Scripts/affecto/**/*.map

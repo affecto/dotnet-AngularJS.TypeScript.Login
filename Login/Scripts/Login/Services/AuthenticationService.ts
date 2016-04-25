@@ -110,7 +110,7 @@ module Affecto.Login
             }
             else
             {
-                this.$window.location.href = this.externalLoginPage;
+                this.$window.location.href = HtmlContent.unescape(this.externalLoginPage);
             }
         }
 
